@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* SECTION : HERO */
+
+section.hero {
+    background:linear-gradient(0deg, #31a431a6, #31a431), url('../images/foto-hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+section.hero nav.navbar a.nav-link {
+    color: white;
+    margin-right: 24px;
+}
+
+section.hero nav.navbar a.nav-link.active {
+    font-weight: 800;
+    border-bottom: 2px solid white;
+}
+
+a.nav-link.btn-nav {
+    border-radius: 0;
+    color: #31a431 !important;
+    padding: 10px 24px !important;
+    font-weight: 600;
+}
+
+section.hero div.hero-content {
+    margin-top: 180px;
+}
+
+section.hero h1 {
+    font-size: 54px;
+    width: 90%;
+    font-weight: 800;
+    margin: 30px auto ;
+}
+
+section.hero h6 {
+    font-size: 18px;
+}
+
+section.hero .btn-hero {
+    background-color: white;
+    border-radius: 0;
+    padding: 12px 24px;
+    color: #31a431;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+section.hero .btn-hero:hover {
+    color: black;
+}
+
+/* SECTION : TENTANG */
+
+section.tentang {
+    height: 100vh;
+}
+
+section.tentang .col-img {
+    margin-bottom: 30px;
+}
+
+section.tentang h1 .text-arek-suroboyo {
+    color: #31a431;
+}
+
+section.tentang p {
+    text-align: justify;
+}
+
+section.tentang a.btn-tentang {
+    background-color: #31a431;
+    color: white;
+    border-radius: 0;
+    padding: 12px 24px;
+    margin-top: 40px;
+}
+
+div.row.bergabung div.tengah {
+    background-color: #31a431;
+    color: white;
+}
+
+div.row.bergabung div.tengah h1 {
+    font-size: 80px;
+}
+
+/* SECTION : EVENT */
+section.event {
+    /* height: 100vh; */
+    margin-top: 750px;
+}
+
+section.event img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+section.event a.btn-event-selengkapnya {
+    background-color: #31a431;
+    padding: 12px 24px;
+    border-radius: 0;
+    color: white;
+    margin-top: 100px;
+}
+
+/* SECTION : SPONSOR */
+section.sponsor img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1);
+}
+
+section.sponsor img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+section.blog a.btn-card-blog {
+    background-color: #31a431;
+    padding: 12px 24px;
+    border-radius: 0;
+    color: white;
+}
+
+/* FOOTER */
+footer.footer {
+    background-color: #31a431;
+}
+
+div.copyright {
+    background-color: #2a882a;
+}
+
+@media (min-width: 992px) {
+
+    section.hero {
+        height: 100vh;
+    }
+
+    section.hero h1 {
+        font-size: 84px;
+        /* width: 60%; */
+        margin: 30px auto ;
+    }
+    
+    section.hero h6 {
+        font-size: 24px;
+    }
+
+    section.hero div.hero-content {
+        margin-top: 160px;
+    }
+
+    section.tentang {
+        height: 100vh;
+    }
+
+    section.tentang .col-img {
+        margin-bottom: 0;
+    }
+
+    section.event {
+        /* height: 100vh; */
+        margin-top: 0px;
+    }
+}
